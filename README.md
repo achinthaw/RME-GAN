@@ -1,15 +1,12 @@
 ## RME-GAN: A Learning Framework for Radio Map Estimation based on Conditional Generative Adversarial Network
 ### [Songyang Zhang], [Achintha Wijesinghe], and [Zhi Ding]
 
-[[ArXiv Preprint](https://arxiv.org/abs/2306.04321v1)]
+[[ArXiv Preprint]([https://arxiv.org/abs/2306.04321v1](https://arxiv.org/abs/2212.12817))]
 
 
-
-%:loudspeaker: **03/07** Released pretrained checkpoints!
 
 ### :page_with_curl: Abstract
-Semantic communication is expected to be one of the cores of next-generation AI-based communications. One of the possibilities offered by semantic communication is the capability to regenerate, at the destination side, images or videos semantically equivalent to the transmitted ones, without necessarily recovering the transmitted sequence of bits. The current solutions still lack the ability to build complex scenes from the received partial information. Clearly, there is an unmet need to balance the effectiveness of generation methods and the complexity of the transmitted information, possibly taking into account the goal of communication. In this paper, we aim to bridge this gap by proposing a novel generative diffusion-guided framework for semantic communication that leverages the strong abilities of diffusion models in synthesizing multimedia content while preserving semantic features. We reduce bandwidth usage by sending highly-compressed semantic information only. Then, the diffusion model learns to synthesize semantic-consistent scenes through spatially-adaptive normalizations from such denoised semantic information.
-We prove, through an in-depth assessment of multiple scenarios,  that our method outperforms existing solutions in generating high-quality images with preserved semantic information even in cases where the received content is significantly degraded. More specifically, our results show that objects, locations, and depths are still recognizable even in the presence of extremely noisy conditions of the communication channel.
+Outdoor radio map estimation is an important tool for network planning and resource management in modern Internet of Things (IoT) and cellular systems. Radio map describes spatial signal strength distribution and provides network coverage information. A practical goal is to estimate fine-resolution radio maps from sparse radio strength measurements. However, non-uniformly positioned measurements and access obstacles can make it difficult for accurate radio map estimation (RME) and spectrum planning in many outdoor environments. In this work, we develop a two-phase learning framework for radio map estimation by integrating radio propagation model and designing a conditional generative adversarial network (cGAN). We first explore global information to extract the radio propagation patterns. We then focus on the local features to estimate the effect of shadowing on radio maps in order to train and optimize the cGAN. Our experimental results demonstrate the efficacy of the proposed framework for radio map estimation based on generative models from sparse observations in outdoor scenarios.
 
 ### :dart: The GESCO framework
 <img src="architecture-Pagina-1.drawio.png"/>
@@ -56,11 +53,14 @@ Our code is based on [guided-diffusion](https://github.com/openai/guided-diffusi
 Please, cite our work if you found it useful.
 
 ```
-@article{grassucci2023generative,
-    title={Generative Semantic Communication: Diffusion Models Beyond Bit Recovery},
-    author={Grassucci, Eleonora and Barbarossa, Sergio and Comminiello, Danilo},
-    year={2023},
-    journal={ArXiv preprint: ArXiv:2306.04321},
-}
+@ARTICLE{10130091,
+  author={Zhang, Songyang and Wijesinghe, Achintha and Ding, Zhi},
+  journal={IEEE Internet of Things Journal}, 
+  title={RME-GAN: A Learning Framework for Radio Map Estimation Based on Conditional Generative Adversarial Network}, 
+  year={2023},
+  volume={10},
+  number={20},
+  pages={18016-18027},
+  doi={10.1109/JIOT.2023.3278235}}
 ```
 
