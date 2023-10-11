@@ -1,5 +1,5 @@
 ## RME-GAN: A Learning Framework for Radio Map Estimation based on Conditional Generative Adversarial Network
-### [Eleonora Grassucci](https://sites.google.com/uniroma1.it/eleonoragrassucci/home-page), [Sergio Barbarossa](https://sites.google.com/a/uniroma1.it/sergiobarbarossa/), and [Danilo Comminiello](https://danilocomminiello.site.uniroma1.it/)
+### [Songyang Zhang], [Achintha Wijesinghe], and [Zhi Ding]
 
 [[ArXiv Preprint](https://arxiv.org/abs/2306.04321v1)]
 
