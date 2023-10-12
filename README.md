@@ -8,16 +8,15 @@
 ### :page_with_curl: Abstract
 Outdoor radio map estimation is an important tool for network planning and resource management in modern Internet of Things (IoT) and cellular systems. Radio map describes spatial signal strength distribution and provides network coverage information. A practical goal is to estimate fine-resolution radio maps from sparse radio strength measurements. However, non-uniformly positioned measurements and access obstacles can make it difficult for accurate radio map estimation (RME) and spectrum planning in many outdoor environments. In this work, we develop a two-phase learning framework for radio map estimation by integrating radio propagation model and designing a conditional generative adversarial network (cGAN). We first explore global information to extract the radio propagation patterns. We then focus on the local features to estimate the effect of shadowing on radio maps in order to train and optimize the cGAN. Our experimental results demonstrate the efficacy of the proposed framework for radio map estimation based on generative models from sparse observations in outdoor scenarios.
 
-### :dart: The GESCO framework
-<img src="architecture-Pagina-1.drawio.png"/>
+
 
 ### :chart_with_upwards_trend: Main Results
 
 <img src="fig1-Pagina-1.drawio.png"/>
 
-### :clipboard: How to use GESCO
+###  Usage
 
-#### Train GESCO
+#### Train RME-GAN
 
 * Install the file `requirements.txt` and, separately, `conda install pytorch==1.12.1 torchvision==0.13.1 -c pytorch`.
 
