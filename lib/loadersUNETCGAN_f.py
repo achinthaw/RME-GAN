@@ -415,7 +415,7 @@ class RadioUNet_s(Dataset):
                  IRT2maxW=1,
                  cityMap="complete",
                  missing=1,
-                 fix_samples=655*10,
+                 fix_samples=655,
                  num_samples_low= 655, 
                  num_samples_high= 655*10,
                  transform= transforms.ToTensor()):
