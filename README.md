@@ -24,6 +24,8 @@ python3 RME-GAN_train.py
 * To change the different setups, change the file lib/loadersUNETCGAN_f.py
 
 Our code is based on [Radio Unet](https://github.com/RonLevie/RadioUNet).
+You may want to test on the [RadioMapSeer Dataset](https://radiomapseer.github.io/).
+Another available dataset is [BRATLab Dataset](https://github.com/BRATLab-UCD/Radiomap-Data).
 
 #### Cite
 Consider citing our paper, if it is found useful.
