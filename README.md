@@ -46,7 +46,7 @@ python image_sample.py --data_dir "./data" --dataset_mode cityscapes --attention
 
 With the same dataset-specific hyperparameters, in addition to `--s` with is equal to `2` in Cityscapes and `2.5` for COCO and ADE20k.
 
-Our code is based on [Radio Unet]([https://github.com/openai/guided-diffusion](https://github.com/RonLevie/RadioUNet)
+Our code is based on [Radio Unet](https://github.com/RonLevie/RadioUNet).
 
 #### Cite
 Consider citing our paper, if it is found useful.
