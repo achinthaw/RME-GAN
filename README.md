@@ -1,7 +1,7 @@
 ## RME-GAN: A Learning Framework for Radio Map Estimation based on Conditional Generative Adversarial Network [ Under construction ]
 ### [Songyang Zhang](https://scholar.google.com/citations?user=cZI11G4AAAAJ&hl=en), [Achintha Wijesinghe](https://scholar.google.com/citations?hl=en&user=PGVNF-gAAAAJ), and [Zhi Ding](https://scholar.google.com/citations?user=G0oZBhUAAAAJ&hl=en)
 
-[ArXiv Preprint](https://arxiv.org/abs/2212.12817)\\
+[ArXiv Preprint](https://arxiv.org/abs/2212.12817)
 [Paper](https://ieeexplore.ieee.org/document/10130091)
 
 
@@ -21,6 +21,7 @@ Outdoor radio map estimation is an important tool for network planning and resou
 ```
 python3 RME-GAN_train.py
 ```
+* To change the different setups, change the file lib/loadersUNETCGAN_f.py
 
 Our code is based on [Radio Unet](https://github.com/RonLevie/RadioUNet).
 
