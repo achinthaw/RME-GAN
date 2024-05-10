@@ -4,6 +4,7 @@ Created on Mon Jun 20 13:59:34 2022
 trying loss2 > loss 1 : done
 Thanks: https://www.youtube.com/watch?v=Snqb7Usrauw
 Thanks: https://github.com/RonLevie/RadioUNet
+Thanks: https://github.com/RonLevie/RadioUNet
 
 
 This code uses non uniform sampled observations in a range 1-10%
