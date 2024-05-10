@@ -1,5 +1,5 @@
 ## RME-GAN: A Learning Framework for Radio Map Estimation based on Conditional Generative Adversarial Network [ Under construction ]
-### [Songyang Zhang], [Achintha Wijesinghe](https://scholar.google.com/citations?hl=en&user=PGVNF-gAAAAJ), and [Zhi Ding]
+### [Songyang Zhang](https://scholar.google.com/citations?user=cZI11G4AAAAJ&hl=en), [Achintha Wijesinghe](https://scholar.google.com/citations?hl=en&user=PGVNF-gAAAAJ), and [Zhi Ding](https://scholar.google.com/citations?user=G0oZBhUAAAAJ&hl=en)
 
 [ArXiv Preprint](https://arxiv.org/abs/2212.12817)
 [Paper](https://ieeexplore.ieee.org/document/10130091)
