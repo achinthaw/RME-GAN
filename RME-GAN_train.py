@@ -373,6 +373,7 @@ netG.load_state_dict(torch.load('UNetCGANFinal_nonuniform/Trained_ModelMSE_Gen_b
 netD = Discriminator(device)
 netD.load_state_dict(torch.load('UNetCGANFinal_nonuniform/Trained_ModelMSE_Dis_best_0.wgt'))
 
+# change the phase first/ second
 RadioGAN = GANTrain(netD, netG, Radio_train, Radio_val, Radio_test, phase='second')
 bestD, bestG = RadioGAN.model_train(epochs=50)
 
