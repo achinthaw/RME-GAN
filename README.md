@@ -1,7 +1,7 @@
 ## RME-GAN: A Learning Framework for Radio Map Estimation based on Conditional Generative Adversarial Network [ Under construction ]
 ### [Songyang Zhang], [Achintha Wijesinghe], and [Zhi Ding]
 
-[[ArXiv Preprint]([https://arxiv.org/abs/2306.04321v1](https://arxiv.org/abs/2212.12817))]
+[ArXiv Preprint](https://arxiv.org/abs/2212.12817)
 
 
 
@@ -18,33 +18,13 @@ Outdoor radio map estimation is an important tool for network planning and resou
 
 #### Train RME-GAN
 
-* Install the file `requirements.txt` and, separately, `conda install pytorch==1.12.1 torchvision==0.13.1 -c pytorch`.
+* We have used the PyTorch framework for the model implementation.
 
 * Run the following command:
 
 ```
-python image_train.py --data_dir ./data --dataset_mode cityscapes --lr 1e-4 --batch_size 4 --attention_resolutions 32,16,8 --diffusion_steps 1000 --image_size 256 --learn_sigma True
---noise_schedule linear --num_channels 256 --num_head_channels 64 --num_res_blocks 2 --resblock_updown True --use_fp16 True --use_scale_shift_norm True --use_checkpoint True --num_classes 35
---class_cond True --no_instance False 
+python3 
 ```
-
-For Cityscapes: `--dataset_mode cityscapes`, `--image_size 256`, `--num_classes 35`, `--class_cond True`, `--no_instance False`.
-
-For COCO: `--dataset_mode coco`, `--image_size 256`, `--num_classes 183`, `--class_cond True`, `--no_instance False`.
-
-For ADE20K: `--dataset_mode ade20k`, `--image_size 256`, `--num_classes 151`, `--class_cond True`, `--no_instance True`.
-
-#### Sample from GESCO
-
-* Train your own model or download our pretrained weights [here](https://drive.google.com/drive/folders/1MwDLhTM3MbhEm7z42zaJ0aITgPFxg-VT?usp=sharing).
-
-* Run the following command:
-
-```
-python image_sample.py --data_dir "./data" --dataset_mode cityscapes --attention_resolutions 32,16,8 --diffusion_steps 1000 --image_size 256 --learn_sigma True --noise_schedule linear --num_channels 256 --num_head_channels 64 --num_res_blocks 2 --resblock_updown True --use_fp16 True --use_scale_shift_norm True --num_classes 35 --class_cond True --no_instance False --batch_size 1 --num_samples 100 --model_path ./your_checkpoint_path.pt --results_path ./your_results_path --s 2 --one_hot_label True --snr your_snr_value --pool None --unet_model unet 
-```
-
-With the same dataset-specific hyperparameters, in addition to `--s` with is equal to `2` in Cityscapes and `2.5` for COCO and ADE20k.
 
 Our code is based on [Radio Unet](https://github.com/RonLevie/RadioUNet).
 
