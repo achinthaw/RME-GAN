@@ -1,4 +1,4 @@
-## RME-GAN: A Learning Framework for Radio Map Estimation based on Conditional Generative Adversarial Network
+## RME-GAN: A Learning Framework for Radio Map Estimation based on Conditional Generative Adversarial Network [ Under construction ]
 ### [Songyang Zhang], [Achintha Wijesinghe], and [Zhi Ding]
 
 [[ArXiv Preprint]([https://arxiv.org/abs/2306.04321v1](https://arxiv.org/abs/2212.12817))]
@@ -46,10 +46,10 @@ python image_sample.py --data_dir "./data" --dataset_mode cityscapes --attention
 
 With the same dataset-specific hyperparameters, in addition to `--s` with is equal to `2` in Cityscapes and `2.5` for COCO and ADE20k.
 
-Our code is based on [guided-diffusion](https://github.com/openai/guided-diffusion) and on [SDM](https://github.com/WeilunWang/semantic-diffusion-model).
+Our code is based on [Radio Unet]([https://github.com/openai/guided-diffusion](https://github.com/RonLevie/RadioUNet))
 
 #### Cite
-Please, cite our work if you found it useful.
+Consider citing our paper, if it is found useful.
 
 ```
 @ARTICLE{10130091,
