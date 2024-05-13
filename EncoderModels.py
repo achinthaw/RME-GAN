@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu May 26 09:30:42 2022
-
-@author: Achintha
-"""
 import torch.nn as nn
 import functools
 
