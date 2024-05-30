@@ -19,7 +19,7 @@ Outdoor radio map estimation is an important tool for network planning and resou
 * Run the following command:
 
 ```
-python3 RME-GAN_train.py
+python3 train.py
 ```
 * To change the different setups, change the file lib/loadersUNETCGAN_f.py
 
