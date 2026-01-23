@@ -21,6 +21,8 @@ Outdoor radio map estimation is an important tool for network planning and resou
 ```
 python3 train.py
 ```
+* You may flexibly change your condition and finetune weights in the loss function for your dataset and splitting.
+
 * To change the different setups, change the file lib/loadersUNETCGAN_f.py
 
 Our code is based on [Radio Unet](https://github.com/RonLevie/RadioUNet).
